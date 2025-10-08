@@ -1,4 +1,4 @@
-import crypto from "crypto";
+import crypto from 'crypto';
 
 function hash(mensaje) {
     const hash = crypto.createHash('sha512');
@@ -6,5 +6,4 @@ function hash(mensaje) {
     return hash.digest('hex');
 }
 
-
-module.exports = hash;
+module.exports = hash ;
